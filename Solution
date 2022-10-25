@@ -40,6 +40,6 @@ cacheSolve <- function(x, ...) {
 
 # In order to test this theory run both functions in RStudio or R 
 # Once done test it by using 
-> B <- matrix(c(1,2,3,4),2,2)
+> B <- matrix(c(1,2,3,4),3,3)
 > B1 <- makeCacheMatrix(B)
 > cacheSolve(B1)
